@@ -1,0 +1,25 @@
+{
+  "title": "Strategy",
+  "type": "object",
+  "properties": {
+    "symbol": {
+      "type": "string",
+      "title": "Symbol",
+      "examples": ["e.g. XMT"],
+      "maxLength": 16
+    },
+    "address": {
+      "type": "string",
+      "title": "Contract address",
+      "examples": ["e.g. xtokens"],
+      "maxLength": 12
+    },
+    "decimals": {
+      "type": "number",
+      "title": "Decimals",
+      "examples": ["e.g. 8"]
+    }
+  },
+  "required": ["symbol", "address", "decimals"],
+  "additionalProperties": false
+}
